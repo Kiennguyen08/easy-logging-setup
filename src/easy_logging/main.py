@@ -5,6 +5,12 @@ import logging.config
 # Load the configuration from the file
 
 
+class ContextAdapter(logging.LoggerAdapter):
+    def process(self, msg, kwargs):
+        kwargs["extra"] = self.extra
+        return msg, kwargs
+
+
 class EasyLoggingSetup:
     def __init__(self, enable_json_mode: bool = False) -> None:
         self.enable_json_mode = enable_json_mode
@@ -19,6 +25,16 @@ class EasyLoggingSetup:
 
 
 if __name__ == "__main__":
-    log = EasyLoggingSetup()
+    from easylogging import EasyLogging
+
+    EasyLoggingSetup(True)
+
     logger = logging.getLogger()
+    ctxLogger = ContextAdapter(logger=logger, extra={"src": "abc"})
+
+    log = EasyLogging.getLogger(__name__)
+    ctxLogger2 = log.with_ctx({"hello": "world"})
+
     logger.info("AAAA")
+    ctxLogger.info("AAAA")
+    ctxLogger2.info("AAA")

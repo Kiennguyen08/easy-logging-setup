@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: easy-logging-setup
-Version: 0.0.1
+Version: 0.0.2
 Summary: A Easy Logging Tool for Python
 Author-email: Kien Nguyen <kiennguyenvnmos@gmail.com>
 License: Copyright (c) 2018 The Python Packaging Authority
@@ -22,8 +22,8 @@ License: Copyright (c) 2018 The Python Packaging Authority
         LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
         SOFTWARE.
-Project-URL: Homepage, https://github.com/pypa/easy_logging
-Project-URL: Issues, https://github.com/pypa/easy_logging/issues
+Project-URL: Homepage, https://github.com/Kiennguyen08/easy-logging-setup
+Project-URL: Issues, https://github.com/Kiennguyen08/easy-logging-setup/issues
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent

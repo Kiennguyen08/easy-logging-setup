@@ -15,7 +15,7 @@ classifiers = [
 name = "easy-logging-setup"
 dependencies = ["python-json-logger==2.0.7", "pyyaml==6.0.1"]
 license = { file = "LICENSE" }
-version = "0.0.1"
+version = "0.0.2"
 
 [project.urls]
 Homepage = "https://github.com/Kiennguyen08/easy-logging-setup"
