@@ -50,14 +50,13 @@ Here's an example of how you can use Easy Logging to configure logging in your P
 
 ```python
 # main.py
-import logging
-from easy_logging import Logging
+from easy_logging import EasyLogging, EasyLoggingSetup
 
-# Configure logging
-logging = Logging(enable_json_mode=True)
+# Configure logging for json mode 
+EasyLoggingSetup(enable_json_mode=True)
 
 # Get the logger for the current module
-logger = logging.getLogger(__name__)
+logger = EasyLogging.getLogger(__name__)
 
 # Log messages
 logger.debug('This is a debug message')

@@ -7,7 +7,7 @@ Easy Logging is a Python package that simplifies the process of setting up loggi
 You can install Easy Logging using pip:
 
 ```bash
-pip install easy-logging
+pip install easy-logging-setup
 ```
 
 # Usage
