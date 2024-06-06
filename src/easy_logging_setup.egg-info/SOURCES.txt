@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/easy_logging/__init__.py
+src/easy_logging/main.py
+src/easy_logging_setup.egg-info/PKG-INFO
+src/easy_logging_setup.egg-info/SOURCES.txt
+src/easy_logging_setup.egg-info/dependency_links.txt
+src/easy_logging_setup.egg-info/requires.txt
+src/easy_logging_setup.egg-info/top_level.txt

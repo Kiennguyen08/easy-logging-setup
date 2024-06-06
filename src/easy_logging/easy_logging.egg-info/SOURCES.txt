@@ -1,0 +1,7 @@
+main.py
+pyproject.toml
+easy_logging.egg-info/PKG-INFO
+easy_logging.egg-info/SOURCES.txt
+easy_logging.egg-info/dependency_links.txt
+easy_logging.egg-info/requires.txt
+easy_logging.egg-info/top_level.txt

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+authors = [{ name = "Kien Nguyen", email = "kiennguyenvnmos@gmail.com" }]
+description = "A Easy Logging Tool for Python"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+name = "easy-logging-setup"
+dependencies = ["python-json-logger==2.0.7", "pyyaml==6.0.1"]
+license = { file = "LICENSE" }
+version = "0.0.1"
+
+[project.urls]
+Homepage = "https://github.com/Kiennguyen08/easy-logging-setup"
+Issues = "https://github.com/Kiennguyen08/easy-logging-setup/issues"
